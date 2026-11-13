@@ -1,0 +1,38 @@
+# Photo Privacy Cleaner
+
+See the hidden metadata in your photos - GPS location, camera, timestamps - and
+strip it before you share. 100% local: your photo never leaves your browser.
+
+Live website: deployed on Vercel (link added after deployment).
+
+## What it does
+
+- Drop, paste, or choose photos (JPEG, PNG, WebP, HEIC; multiple at once)
+- See what each photo reveals: GPS coordinates, device, date and time, and more
+- Strip all metadata losslessly - image quality is untouched, byte for byte
+- Download cleaned copies one by one or all together as a .zip
+- Zero dependencies, no uploads, no accounts, no tracking
+
+## Why it matters
+
+Phone cameras embed EXIF metadata in every photo, often including the exact GPS
+location where it was taken. Anyone who downloads the original file can read it.
+This tool shows you that hidden data and removes it before you share the photo.
+
+## Run locally
+
+```bash
+npm ci
+npm run dev
+```
+
+Tests: `npm test`  -  Build the static site: `npm run build:web` (outputs to `docs/`)
+
+## Tech
+
+TypeScript + Vite, fully client-side. No backend, no cookies, no analytics.
+
+## Credits
+
+Adapted from [scrubpix](https://github.com/didrod205/scrubpix) by didrod205,
+licensed under the MIT License (see [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt)).

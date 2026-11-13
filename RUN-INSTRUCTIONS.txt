@@ -1,0 +1,13 @@
+PHOTO PRIVACY CLEANER - HOW TO RUN
+
+Easiest way: open the live website (link shared separately) in any browser.
+Drop a photo to see its hidden metadata and download a cleaned copy.
+Nothing is uploaded; everything runs in your browser.
+
+RUN LOCALLY (for development)
+1. Install Node.js 18 or newer from https://nodejs.org
+2. Open a terminal in this folder
+3. npm ci
+4. npm run dev        -> opens the app at the local address it prints
+5. npm test           -> runs the test suite
+6. npm run build:web  -> builds the static site into docs/

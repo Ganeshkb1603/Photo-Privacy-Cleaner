@@ -1,0 +1,7 @@
+Photo Privacy Cleaner is adapted from scrubpix
+https://github.com/didrod205/scrubpix
+Copyright (c) 2026 scrubpix contributors
+
+The original project is licensed under the MIT License (see LICENSE),
+which is retained unchanged. Adaptation and hosting: Anushree N
+(https://github.com/anugownori).
