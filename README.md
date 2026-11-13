@@ -3,7 +3,7 @@
 See the hidden metadata in your photos - GPS location, camera, timestamps - and
 strip it before you share. 100% local: your photo never leaves your browser.
 
-Live website: deployed on Vercel (link added after deployment).
+Live website: https://photo-privacy-cleaner-five.vercel.app
 
 ## What it does
 
