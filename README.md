@@ -3,7 +3,7 @@
 See the hidden metadata in your photos - GPS location, camera, timestamps - and
 strip it before you share. 100% local: your photo never leaves your browser.
 
-Live website: https://photo-privacy-cleaner-five.vercel.app
+Live website: https://photo-privacy-cleaner-weld.vercel.app
 
 ## What it does
 
@@ -26,7 +26,7 @@ npm ci
 npm run dev
 ```
 
-Tests: `npm test`  -  Build the static site: `npm run build:web` (outputs to `docs/`)
+Tests: `npm test` - Build the static site: `npm run build:web` (outputs to `docs/`)
 
 ## Tech
 
@@ -34,8 +34,8 @@ TypeScript + Vite, fully client-side. No backend, no cookies, no analytics.
 
 ## Credits
 
-Adapted from [scrubpix](https://github.com/didrod205/scrubpix) by didrod205,
-licensed under the MIT License (see [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt)).
+Adapted from scrubpix by didrod205,
+licensed under the MIT License (see LICENSE and NOTICE.txt).
 
 ## Visual design
 
